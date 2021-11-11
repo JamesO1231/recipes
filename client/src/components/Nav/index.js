@@ -6,7 +6,7 @@ import {
     Nav,
 } from 'react-bootstrap';
 
-function Nav() {
+function NavBar() {
     function navigation() {
         if (Auth.loggedIn()) {
             return (
@@ -39,4 +39,4 @@ function Nav() {
     }
 };
 
-export default Nav;
+export default NavBar;
