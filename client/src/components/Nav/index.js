@@ -12,7 +12,7 @@ function NavBar() {
             return (
                 <Navbar bg="dark" variant="dark">
                     <Container>
-                    <Navbar.Brand href="#home">Home Chef</Navbar.Brand>
+                    <Navbar.Brand>Home Chef</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#searchRecipes">Search Recipes</Nav.Link>
@@ -26,7 +26,7 @@ function NavBar() {
             return (
                 <Navbar bg="dark" variant="dark">
                     <Container>
-                    <Navbar.Brand href="#home">Home Chef</Navbar.Brand>
+                    <Navbar.Brand>Home Chef</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="#logIn">Sign In</Nav.Link>
@@ -39,13 +39,13 @@ function NavBar() {
     } return (
         <Navbar bg="dark" variant="dark">
             <Container>
-            <Navbar.Brand href="/">Home Chef</Navbar.Brand>
+            <Navbar.Brand>Home Chef</Navbar.Brand>
             <Nav className="me-auto">
                {navigation()}
             </Nav>
             </Container>
         </Navbar>
-    )
+    );
 };
 
 export default NavBar;
