@@ -36,7 +36,16 @@ function NavBar() {
                 </Navbar>
             );
         }
-    }
+    } return (
+        <Navbar bg="dark" variant="dark">
+            <Container>
+            <Navbar.Brand href="/">Home Chef</Navbar.Brand>
+            <Nav className="me-auto">
+               {navigation()}
+            </Nav>
+            </Container>
+        </Navbar>
+    )
 };
 
 export default NavBar;
