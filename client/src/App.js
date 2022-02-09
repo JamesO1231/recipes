@@ -1,9 +1,10 @@
 import React from 'react';
+import Nav from '/components/nav/nav.js'
 
 function App() {
   return (
     <div>
-      <h1>Yes We Did</h1>
+      <Nav />
     </div>
   );
 }
